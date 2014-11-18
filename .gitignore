@@ -1,0 +1,6 @@
+*.sw[po]
+minion.d*
+minion_id
+pki
+reclass-config.yml
+.vagrant

@@ -1,0 +1,20 @@
+classes:
+  - python
+applications:
+  - reclass
+parameters:
+  message_do_not_modify: This file is automated, edits will be lost
+  reclass:
+    git:
+      url: git@github.com:madduck/reclass.git
+      rev: ff1342cbbb6f5c302abcf0f5cdfab0c38f6432b6
+      path: /tmp/reclass/
+      user: root
+    paths:
+      base: /etc/reclass/
+      nodes: ${reclass:paths:base}/nodes
+#     classes: ${reclass:paths:base}/classes
+#     declare a custom classes path
+      classes: ${reclass:paths:formula}/manifests
+      formula: /etc/salt/roots/formula
+      tops: ${reclass:paths:formula}/top.sls

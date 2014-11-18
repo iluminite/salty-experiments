@@ -1,0 +1,8 @@
+applications:
+  - salt.minion.base
+parameters:
+  salt:
+    minion:
+      service:
+        status: dead
+        enabled: False

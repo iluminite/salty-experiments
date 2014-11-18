@@ -1,0 +1,18 @@
+classes:
+  - salt.minion
+parameters:
+  salt:
+    minion:
+      master: 127.0.0.1
+      file_client: local
+      file_roots:
+        base:
+          - /etc/salt/roots/formula
+      pillar_roots:
+        base:
+          - /etc/salt/roots/pillar
+      include:
+        - minion.d/*
+# var_log:
+#   salt/minion:
+#     user: root

@@ -1,0 +1,13 @@
+applications:
+  - logs
+parameters:
+  # EXAMPLE
+  # var_log:
+  #   my_app:
+  #     user: my_app
+  #     group: root
+  #     mode: 750
+  #     makedirs: True/False
+  #
+  # See logs.sls in salt formulas for more details
+ var_log: {}

@@ -1,4 +1,5 @@
 *.sw[po]
+*.slsc
 minion.d*
 minion_id
 pki

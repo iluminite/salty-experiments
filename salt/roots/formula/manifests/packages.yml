@@ -1,0 +1,8 @@
+applications:
+  - packages
+parameters:
+  packages:
+    sys: []
+    ppa: []
+    pip: {}
+    pip_defaults: {}

@@ -1,0 +1,6 @@
+classes:
+  - packages
+parameters:
+  packages:
+    map:
+      python-dev: python-dev

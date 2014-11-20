@@ -1,0 +1,5 @@
+parameters:
+  # add the python-dev package to the system pkg list
+  packages:
+    sys:
+      - ${packages:map:python-dev}

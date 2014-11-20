@@ -1,0 +1,5 @@
+applications:
+  - users
+parameters:
+  users: {}
+  ssh_known_hosts: {}

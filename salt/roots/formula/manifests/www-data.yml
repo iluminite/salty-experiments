@@ -1,0 +1,10 @@
+classes:
+  - users
+parameters:
+  users:
+    www-data:
+      home: /var/www
+      shell: /bin/sh
+      createhome: False
+      password: '*'
+      enforce_password: True
